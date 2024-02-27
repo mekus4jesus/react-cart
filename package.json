@@ -1,7 +1,7 @@
 {
-  "homepage": "https://mekus4jesus.github.io/react-cart",
   "name": "chakracart-01",
   "version": "0.1.0",
+  "homepage": "https://mekus4jesus.github.io/react-cart",
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
