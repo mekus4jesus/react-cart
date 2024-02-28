@@ -27,7 +27,7 @@ export const Cart = () => {
         {totalAmount > 0 ? (
           <Box>
             <Text mb='0.8rem' textAlign='center'> Subtotal: ${ totalAmount} </Text>
-            <Button colorScheme='teal' mr='1rem' onClick={() => navigate("/")}> Continue Shopping </Button>
+            <Button colorScheme='teal' mr='1rem' onClick={() => navigate("/react-cart")}> Continue Shopping </Button>
             <Button colorScheme='teal'>Checkout </Button>
           </Box>
          ) : ( <Heading as='h1' mt='1rem'> Your Cart is Empty!! </Heading>
