@@ -9,7 +9,7 @@ export const Navbar = () => {
     <Box bg='rgb(19,19,19)' w='100%' p={4} color='white'>
       <Box display='flex' justifyContent='flex-end' alignItems='center' fontSize='1.4rem' fontWeight='800
       '>
-        <Link to='/'> Shop </Link>
+        <Link to='/react-cart'> Shop </Link>
         <Link to='/cart'> <ShoppingCart  size={32}/> </Link>
       </Box>
     </Box>
